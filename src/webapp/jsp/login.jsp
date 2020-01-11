@@ -7,14 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-<h2> hello in index </h2>
-<ul>
-	<li><a href="/home">Home</a></li>
-	<li><a href="/register">Register</a></li>
-	<li><a href="/login">Login</a></li>
-	<li><a href="/logout">Logout</a></li>
-</ul>
-
+<h1>login test</h1>
 </body>
 </html>

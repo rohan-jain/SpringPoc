@@ -61,6 +61,10 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+		</dependency>
 	</dependencies>
 
 	<dependencyManagement>
@@ -84,4 +88,5 @@
 		</plugins>
 	</build>
 
+	<packaging>war</packaging>
 </project>
