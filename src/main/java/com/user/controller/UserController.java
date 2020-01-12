@@ -28,7 +28,7 @@ public class UserController {
 	
 	@GetMapping("/login") 
 	public String loginUser(Model m) {
-		m.addAttribute(new LoginForm());
+//		m.addAttribute(new LoginForm());
 		System.out.println("login hello world login");
 		return "login";
 	}
