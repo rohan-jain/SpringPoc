@@ -15,15 +15,18 @@
 <h3>Login User</h3>
 
 
-<form:form method="POST" modelAttribute="loginForm" action="/login">
+
+
+<form:form method="POST" modelAttribute="" action="/login">
 	<table>
 		
 		<tr>
 			<td>
-				<form:label path="email">email</form:label>
+				<form:label path="username">username</form:label>
+	
 			</td>
 			<td>
-				<form:input path="email"/>
+				<input id="username" name="username" type="email" placeholder="Enter email" />
 			</td>
 		</tr>
 		
@@ -32,7 +35,7 @@
 				<form:label path="password">password</form:label>
 			</td>
 			<td>
-				<form:password path="password"/>
+				<input type="password" id="password" name="password" class="form-control" placeholder="Password" />
 			</td>
 		</tr>
 		<tr>
