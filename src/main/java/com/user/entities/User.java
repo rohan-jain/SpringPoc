@@ -1,4 +1,4 @@
-package entities;
+package com.user.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -13,12 +13,24 @@ import javax.persistence.Table;
 public class User {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long userid;
-	public long getUserid() {
-		return userid;
+	private long userId;
+
+	private String name;
+	private int age;
+	private String password;
+	private String email;
+	
+	public long getUserId() {
+		return userId;
 	}
-	public void setUserid(int userid) {
-		this.userid = userid;
+	public void setUserId(long userId) {
+		this.userId = userId;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
 	}
 	public String getName() {
 		return name;
@@ -38,7 +50,5 @@ public class User {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	private String name;
-	private int age;
-	private String password;
+
 }

@@ -12,6 +12,7 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter{
 	public void addViewControllers(ViewControllerRegistry registry) {
 		// TODO Auto-generated method stub
 		registry.addViewController("/").setViewName("index");
+		registry.addViewController("/index").setViewName("index");
 	}
 	
 }
